@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:background="@mipmap/abc"
+    android:id="@+id/activity_main2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    tools:context="com.example.roline.jumbled_game.Main2Activity">
+
+
+    <ToggleButton
+        android:text="@string/ToggleButton"
+        android:background="@drawable/colorbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toggleButton" />
+
+    <Button
+        android:text="@string/Next"
+        android:background="@drawable/colorbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:text="@string/jumbled"
+        android:textSize="45sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:hint="@string/ans"
+        android:layout_width="wrap_content"
+
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textColorHint="#9609a6"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/toggleButton"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:text="@string/Check"
+        android:background="@drawable/colorbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/editText"
+        android:layout_marginStart="21dp" />
+
+    <Button
+        android:text="@string/Hint"
+        android:background="@drawable/colorbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="93dp"
+        android:id="@+id/hint" />
+
+    <Button
+        android:text="@string/exit"
+        android:background="@drawable/colorbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="125dp"
+        />
+
+    <TextView
+        android:text="@string/time"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer"
+        android:layout_alignBaseline="@+id/exit"
+        android:layout_alignBottom="@+id/exit"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginStart="23dp" />
+
+    <TextView
+        android:text="@string/score"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/toggleButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Jumbled_Game</string>
+    <string name="ans">your ans</string>
+    <string name="Next">Next</string>
+    <string name="Check">Check</string>
+    <string name="ToggleButton">ToggleButton</string>
+    <string name="Hint">Hint</string>
+    <string name="jumbled">jumbled</string>
+    <string name="exit">Exit</string>
+    <string name="time">57</string>
+    <string name="score">11039</string>
+    <string name="Play">Play</string>
+    <string name="HighScores">Highscores</string>
+
+
+</resources>
